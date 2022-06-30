@@ -4,14 +4,16 @@ import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Main from "./Main";
+import uuid from "react-uuid";
 
 class App extends React.Component {
   render() {
+    console.log(uuid());
     return (
       <>
         {/* <Nav /> */}
         <div className="container-fluid">
-          <Main />          
+          <Main />
         </div>
       </>
     );
