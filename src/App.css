@@ -45,13 +45,13 @@
 }
 
 .main {
-  background-color: #000000;
+  /* background-color: #000000; */
   padding: 40px 0;
-  color: #fff;
+  /* color: #fff; */
 }
 
 small {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 small a {
@@ -66,4 +66,46 @@ button.btn.btn-dark.rounded-pill.plans {
   margin-left: 10px;
   background-color: transparent;
   border-color: #fff;
+}
+
+.payment-options {
+  font-size: 10px;
+}
+
+.payment-options img {
+  width: 30px;
+  margin-right: 6px;
+}
+
+.intro {}
+
+li {
+  display: block;
+}
+
+li:before {
+  content: '\2713';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.xcard {
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+
+.xcard ul {
+  height: 200px;
+}
+
+.offer {
+  width: 60% !important;
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+
+.offer p {
+  margin-bottom: 0;
 }
