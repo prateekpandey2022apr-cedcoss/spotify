@@ -9,10 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Nav />
+        {/* <Nav /> */}
         <div className="container-fluid">
-          <Main />
-          <Footer />
+          <Main />          
         </div>
       </>
     );
