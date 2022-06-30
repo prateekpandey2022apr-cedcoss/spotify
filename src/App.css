@@ -50,9 +50,9 @@
   /* color: #fff; */
 }
 
-small {
+/* small {
   font-size: 10px;
-}
+} */
 
 small a {
   color: #fff;
@@ -69,7 +69,7 @@ button.btn.btn-dark.rounded-pill.plans {
 }
 
 .payment-options {
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 
 .payment-options img {
@@ -108,4 +108,19 @@ li:before {
 
 .offer p {
   margin-bottom: 0;
+}
+
+.social-icons span {
+  padding: 8px;
+  font-size: 25px;
+}
+
+footer a,
+footer .title {
+  color: #7E7E7D;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #7E7E7D;
 }
