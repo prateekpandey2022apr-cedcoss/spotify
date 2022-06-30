@@ -5,26 +5,26 @@ class Main extends React.Component {
   render() {
     return (
       <div className="row text-center main">
-        <h2 className="mb-5">The power of premium</h2>
+        <h2 className="mb-5">Connect with music culture</h2>
         <Card
-          path="./component-2/images/img_1.png"
-          title="Ad free music listening."
-          desc="Enjoy uninterrupted music."
+          path="./component-3/images/img_1.png"
+          title="Bollywood Butter."
+          desc="The Finest quality bollywood music picked up for you."
         />
         <Card
-          path="./component-2/images/img_2.png"
-          title="Offline playback."
-          desc="Save your data by listening online."
+          path="./component-3/images/img_2.png"
+          title="Pubjabi 101."
+          desc="The ultimate pubjabi hits."
         />
         <Card
-          path="./component-2/images/img_3.png"
-          title="Play everywhere."
-          desc="Listen on your speakers, TV and other favorite devices."
+          path="./component-3/images/img_3.png"
+          title="Tollywood Pearls."
+          desc="The finest music from Telugu films."
         />
         <Card
-          path="./component-2/images/img_4.png"
-          title="Pay your way."
-          desc="Prepay with Paytm, UPI and more."
+          path="./component-3/images/img_4.png"
+          title="Hot Hits India."
+          desc="50 hottest hits from across the globe."
         />
       </div>
     );
